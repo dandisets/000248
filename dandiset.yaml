@@ -6,6 +6,8 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
+  encouragement, and support
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -39,22 +41,76 @@ assetsSummary:
   - OptogeneticSeries
   - Units
   - ProcessingModule
-citation: Allen Institute Openscope - Illusion project (2024). (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Shin, Hyeyoung; Adesnik, Hillel (2024) Allen Institute Openscope - Illusion
+  project (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/03cpe7c52
+  includeInCitation: false
+  name: Allen Institute
+  roleName:
+  - dcite:Funder
+  - dcite:Producer
+  schemaKey: Organization
+  url: https://alleninstitute.org/
+- affiliation: []
+  email: shinehyeyoung@gmail.com
+  identifier: 0000-0002-7587-8577
+  includeInCitation: true
+  name: Shin, Hyeyoung
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:FormalAnalysis
+  - dcite:DataCurator
+  schemaKey: Person
+  url: https://biosci.snu.ac.kr/neuroshin
+- affiliation: []
+  email: hadesnik@berkeley.edu
+  identifier: 0000-0002-3796-8643
+  includeInCitation: true
+  name: Adesnik, Hillel
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: https://adesnik.berkeley.edu/
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
-datePublished: '2024-01-22T23:33:53.153408+00:00'
-description: 'A folder used to store the test nwbs for the Illusion Project. '
+datePublished: '2024-01-23T23:59:28.490382+00:00'
+description: 'Much of sensory neuroscience has focused on how the brain faithfully
+  represents sensory information. However, sensory information is often incomplete
+  and ambiguous. Hence, the brain must rely on an internal model of the sensory world
+  to infer a coherent percept. Illusions reveal rational mistakes in perceptual inference,
+  yielding unique insights into the brain’s internal model. Here, we utilized illusory
+  contours (ICs) to study the microcircuit mechanisms underlying the perceptual inference
+  of an edge. Evidence for IC perception has been shown in multiple species, including
+  mice. Neural correlates of IC perception have also been identified, i.e., neurons
+  that respond to ICs with the same receptive field and feature selectivity (e.g.,
+  orientation tuning) as for real edges, despite the lack of feedforward sensory drive.
+  Our goal was to investigate how neocortical microcircuits give rise to illusory
+  responses in IC encoders. In addition, we aimed to investigate whether the microcircuit
+  implementation of IC encoding is common across the visual cortex hierarchy.
+
+  '
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000248/draft
 identifier: DANDI:000248
-keywords: []
+keywords:
+- perceptual inference
+- illusory contours
+- mouse
+- neuropixel
+- extracellular electrophysiology
+- neocortex
+- excitatory
+- inhibitory
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -62,18 +118,30 @@ manifestLocation:
 name: Allen Institute Openscope - Illusion project
 protocol: []
 publishedBy:
-  endDate: '2024-01-22T23:33:53.153408+00:00'
-  id: urn:uuid:024115db-783b-42b6-bdfe-7808ef8fd675
+  endDate: '2024-01-23T23:59:28.490382+00:00'
+  id: urn:uuid:3da904a3-f5ca-4430-9c6e-ca5f6ff6dadd
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-22T23:33:53.153408+00:00'
+  startDate: '2024-01-23T23:59:28.490382+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:69e426a6-e920-49ea-b8fa-770fc6cfb586
+  - id: urn:uuid:74286436-b2c5-439a-93c7-02e694503a41
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: 10.1101/2023.06.05.543698
+  name: Recurrent pattern completion drives the neocortical representation of sensory
+    inference
+  relation: dcite:Describes
+  repository: bioRxiv
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2023.06.05.543698v1
+- name: Analyze_IC_OpenScope_v230821
+  relation: dcite:Describes
+  repository: Github
+  schemaKey: Resource
+  url: https://github.com/hs13/Analyze_IC_OpenScope_v230821
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
