@@ -45,6 +45,8 @@ citation: Shin, Hyeyoung; Adesnik, Hillel (2024) Allen Institute Openscope - Ill
   project (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 U24 NS 113646-02
+  contactPoint: []
+  includeInCitation: false
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
@@ -81,8 +83,35 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
   url: https://adesnik.berkeley.edu/
+- awardNumber: R01EY023756
+  contactPoint: []
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U19NS107613
+  contactPoint: []
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: SSTF-BA2302-07
+  contactPoint: []
+  includeInCitation: false
+  name: Samsung Science and Technology Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Seoul National University New Faculty Startup Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
-datePublished: '2024-01-23T23:59:28.490382+00:00'
+datePublished: '2024-01-29T19:31:07.065495+00:00'
 description: 'Much of sensory neuroscience has focused on how the brain faithfully
   represents sensory information. However, sensory information is often incomplete
   and ambiguous. Hence, the brain must rely on an internal model of the sensory world
@@ -99,7 +128,12 @@ description: 'Much of sensory neuroscience has focused on how the brain faithful
 
   '
 doi: 10.80507/dandi.123456/0.123456.1234
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 2117
+  schemaKey: EthicsApproval
 id: DANDI:000248/draft
 identifier: DANDI:000248
 keywords:
@@ -118,13 +152,13 @@ manifestLocation:
 name: Allen Institute Openscope - Illusion project
 protocol: []
 publishedBy:
-  endDate: '2024-01-23T23:59:28.490382+00:00'
-  id: urn:uuid:3da904a3-f5ca-4430-9c6e-ca5f6ff6dadd
+  endDate: '2024-01-29T19:31:07.065495+00:00'
+  id: urn:uuid:ab743636-08aa-4276-9549-d760f85dd337
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-23T23:59:28.490382+00:00'
+  startDate: '2024-01-29T19:31:07.065495+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:74286436-b2c5-439a-93c7-02e694503a41
+  - id: urn:uuid:2379841c-e921-4195-8c83-cc61689b7fed
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
