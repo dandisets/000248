@@ -41,11 +41,11 @@ assetsSummary:
   - OptogeneticSeries
   - Units
   - ProcessingModule
-citation: Shin, Hyeyoung; Adesnik, Hillel; Peene, R. Carter; Ngo, Nhan-Kiet; Durand,
+citation: Adesnik, Hillel; Shin, Hyeyoung; Peene, R. Carter; Ngo, Nhan-Kiet; Durand,
   Severine; Carlson, Mikayla; GIllis, Ryan; Cabasco, Hannah; Williford, Ali; Swapp,
   Jackie; Grasso, Connor;  Johnson, Tye; Suarez, Lucas; Lecoq, Jerome; Belski , Hannah;
-  Kiselycznyk, Carly; Groblewski, A. Peter; Bawany, Ahad (2024) Allen Institute Openscope
-  - Illusion project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
+  Kiselycznyk, Carly; Groblewski, A. Peter (2024) Allen Institute Openscope - Illusion
+  project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -64,6 +64,17 @@ contributor:
   schemaKey: Organization
   url: https://alleninstitute.org/
 - affiliation: []
+  email: hadesnik@berkeley.edu
+  identifier: 0000-0002-3796-8643
+  includeInCitation: true
+  name: Adesnik, Hillel
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: https://adesnik.berkeley.edu/
+- affiliation: []
   email: shinehyeyoung@gmail.com
   identifier: 0000-0002-7587-8577
   includeInCitation: true
@@ -75,17 +86,6 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
   url: https://biosci.snu.ac.kr/neuroshin
-- affiliation: []
-  email: hadesnik@berkeley.edu
-  identifier: 0000-0002-3796-8643
-  includeInCitation: true
-  name: Adesnik, Hillel
-  roleName:
-  - dcite:Author
-  - dcite:FormalAnalysis
-  - dcite:ContactPerson
-  schemaKey: Person
-  url: https://adesnik.berkeley.edu/
 - awardNumber: R01EY023756
   contactPoint: []
   includeInCitation: false
@@ -232,15 +232,6 @@ contributor:
   roleName:
   - dcite:ProjectAdministration
   - dcite:Supervision
-  schemaKey: Person
-- email: ahad.bawany@alleninstitute.org
-  identifier: 0009-0002-5495-5411
-  includeInCitation: true
-  name: Bawany, Ahad
-  roleName:
-  - dcite:Software
-  - dcite:DataCurator
-  - dcite:Validation
   schemaKey: Person
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
 description: 'Much of sensory neuroscience has focused on how the brain faithfully
