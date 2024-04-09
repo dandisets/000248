@@ -41,8 +41,11 @@ assetsSummary:
   - OptogeneticSeries
   - Units
   - ProcessingModule
-citation: Shin, Hyeyoung; Adesnik, Hillel (2024) Allen Institute Openscope - Illusion
-  project (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Shin, Hyeyoung; Adesnik, Hillel; Peene, R. Carter; Ngo, Nhan-Kiet; Durand,
+  Severine; Carlson, Mikayla; GIllis, Ryan; Cabasco, Hannah; Williford, Ali; Swapp,
+  Jackie; Grasso, Connor;  Johnson, Tye; Suarez, Lucas; Lecoq, Jerome; Belski , Hannah;
+  Kiselycznyk, Carly; Groblewski, A. Peter; Bawany, Ahad (2024) Allen Institute Openscope
+  - Illusion project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -110,8 +113,136 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: carter.peene@alleninstitute.org
+  identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, R. Carter
+  roleName:
+  - dcite:Software
+  - dcite:DataCurator
+  - dcite:Validation
+  schemaKey: Person
+- email: kietn@alleninstitute.org
+  identifier: 0009-0002-5548-1983
+  includeInCitation: true
+  name: Ngo, Nhan-Kiet
+  roleName: []
+  schemaKey: Person
+- email: severined@alleninstitute.org
+  identifier: 0000-0001-7788-0200
+  includeInCitation: true
+  name: Durand, Severine
+  roleName:
+  - dcite:Supervision
+  - dcite:DataCurator
+  schemaKey: Person
+- email: mikayla.carlson@alleninstitue.org
+  identifier: 0009-0003-7019-2781
+  includeInCitation: true
+  name: Carlson, Mikayla
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: ryan.gillis@alleninstitute.org
+  identifier: 0009-0000-1879-6519
+  includeInCitation: true
+  name: GIllis, Ryan
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: hannah.cabasco@alleninstitute.org
+  identifier: 0009-0001-7899-2463
+  includeInCitation: true
+  name: Cabasco, Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: aliw@alleninstitute.org
+  identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Ali
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  - dcite:Methodology
+  schemaKey: Person
+- email: jackies@alleninstitute.org
+  identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  - dcite:DataCollector
+  - dcite:Methodology
+  schemaKey: Person
+- email: conor.grasso@alleninstitute.org
+  identifier: 0009-0003-6384-4075
+  includeInCitation: true
+  name: Grasso, Connor
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: tye.johnson@alleninstitute.org
+  identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: ' Johnson, Tye'
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: lucas.suarez@alleninstitute.org
+  identifier: 0009-0002-0121-3334
+  includeInCitation: true
+  name: Suarez, Lucas
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
+  includeInCitation: true
+  name: Lecoq, Jerome
+  roleName:
+  - dcite:Supervision
+  - dcite:Validation
+  - dcite:DataCurator
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:Software
+  schemaKey: Person
+- email: hannah.belski@alleninstitute.org
+  identifier: 0009-0001-5422-5964
+  includeInCitation: true
+  name: Belski , Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: carly.kiselycznyk@alleninstitute.org
+  identifier: 0009-0006-8410-1192
+  includeInCitation: true
+  name: Kiselycznyk, Carly
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  schemaKey: Person
+  url: ''
+- email: peterg@alleninstitute.org
+  identifier: 0000-0002-8415-1118
+  includeInCitation: true
+  name: Groblewski, A. Peter
+  roleName:
+  - dcite:ProjectAdministration
+  - dcite:Supervision
+  schemaKey: Person
+- email: ahad.bawany@alleninstitute.org
+  identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
+  roleName:
+  - dcite:Software
+  - dcite:DataCurator
+  - dcite:Validation
+  schemaKey: Person
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
-datePublished: '2024-01-29T19:31:07.065495+00:00'
 description: 'Much of sensory neuroscience has focused on how the brain faithfully
   represents sensory information. However, sensory information is often incomplete
   and ambiguous. Hence, the brain must rely on an internal model of the sensory world
@@ -127,7 +258,6 @@ description: 'Much of sensory neuroscience has focused on how the brain faithful
   implementation of IC encoding is common across the visual cortex hierarchy.
 
   '
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -151,18 +281,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000248/versions/draft/assets/
 name: Allen Institute Openscope - Illusion project
 protocol: []
-publishedBy:
-  endDate: '2024-01-29T19:31:07.065495+00:00'
-  id: urn:uuid:ab743636-08aa-4276-9549-d760f85dd337
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-01-29T19:31:07.065495+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:2379841c-e921-4195-8c83-cc61689b7fed
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: 10.1101/2023.06.05.543698
   name: Recurrent pattern completion drives the neocortical representation of sensory
