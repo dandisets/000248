@@ -44,8 +44,8 @@ assetsSummary:
 citation: Adesnik, Hillel; Shin, Hyeyoung; Peene, R. Carter; Ngo, Nhan-Kiet; Durand,
   Severine; Carlson, Mikayla; GIllis, Ryan; Cabasco, Hannah; Williford, Ali; Swapp,
   Jackie; Grasso, Connor;  Johnson, Tye; Suarez, Lucas; Lecoq, Jerome; Belski , Hannah;
-  Kiselycznyk, Carly; Groblewski, A. Peter (2024) Allen Institute Openscope - Illusion
-  project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
+  Groblewski, A. Peter; Kiselycznyk, Carly ; Bawany, Ahad (2024) Allen Institute Openscope
+  - Illusion project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -216,15 +216,6 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
-- email: carly.kiselycznyk@alleninstitute.org
-  identifier: 0009-0006-8410-1192
-  includeInCitation: true
-  name: Kiselycznyk, Carly
-  roleName:
-  - dcite:Supervision
-  - dcite:ProjectAdministration
-  schemaKey: Person
-  url: ''
 - email: peterg@alleninstitute.org
   identifier: 0000-0002-8415-1118
   includeInCitation: true
@@ -232,6 +223,23 @@ contributor:
   roleName:
   - dcite:ProjectAdministration
   - dcite:Supervision
+  schemaKey: Person
+- email: carly.kiselycznyk@alleninstitute.org
+  identifier: 0009-0006-8410-1192
+  includeInCitation: true
+  name: 'Kiselycznyk, Carly '
+  roleName:
+  - dcite:ProjectAdministration
+  - dcite:Supervision
+  schemaKey: Person
+- email: ahad.bawany@alleninstitute.org
+  identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
+  roleName:
+  - dcite:Software
+  - dcite:DataCurator
+  - dcite:Validation
   schemaKey: Person
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
 description: 'Much of sensory neuroscience has focused on how the brain faithfully
