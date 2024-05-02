@@ -44,10 +44,10 @@ assetsSummary:
 citation: Shin, Hyeyoung; Durand, Severine; Belski , Hannah; Cabasco, Hannah; Bawany,
   Ahad; Hardcastle, Ben; Peene, R. Carter; Suarez, Lucas; GIllis, Ryan; Ngo, Nhan-Kiet;
   Loefler, Henry; Swapp, Jackie; Ouellette, Ben; Grasso, Connor; Han, Warren; Suarez,
-  Lucas; Ha, Vivian; Young, Ahrial; Caldejon, Shiella;  Johnson, Tye; Williford, Ali;
-  Groblewski, A. Peter; Kiselycznyk, Carly ; Nguyen, Katrina; Lecoq, Jerome; Adesnik,
-  Hillel (2024) Allen Institute Openscope - Illusion project (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
+  Lucas; Ha, Vivian; Young, Ahrial; Caldejon, Shiella;  Johnson, Tye; Nguyen, Katrina;
+  Williford, Ali; Groblewski, A. Peter; Olsen, Shawn; Kiselycznyk, Carly ; Lecoq,
+  Jerome; Adesnik, Hillel (2024) Allen Institute Openscope - Illusion project (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -238,6 +238,12 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
+- includeInCitation: true
+  name: Nguyen, Katrina
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
 - email: aliw@alleninstitute.org
   identifier: 0009-0000-7282-7515
   includeInCitation: true
@@ -256,7 +262,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 - identifier: 0000-0002-9568-7057
-  includeInCitation: false
+  includeInCitation: true
   name: Olsen, Shawn
   roleName:
   - dcite:Supervision
@@ -269,12 +275,6 @@ contributor:
   - dcite:ProjectAdministration
   - dcite:Supervision
   schemaKey: Person
-- includeInCitation: true
-  name: Nguyen, Katrina
-  roleName:
-  - dcite:DataCollector
-  - dcite:DataCurator
-  schemaKey: Person
 - email: jeromel@alleninstitute.org
   identifier: 0000-0002-0131-0938
   includeInCitation: true
@@ -286,6 +286,7 @@ contributor:
   - dcite:FundingAcquisition
   - dcite:ProjectLeader
   - dcite:Software
+  - dcite:ContactPerson
   schemaKey: Person
 - affiliation: []
   email: hadesnik@berkeley.edu
@@ -299,6 +300,7 @@ contributor:
   schemaKey: Person
   url: https://adesnik.berkeley.edu/
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
+datePublished: '2024-05-02T23:44:23.423845+00:00'
 description: 'Much of sensory neuroscience has focused on how the brain faithfully
   represents sensory information. However, sensory information is often incomplete
   and ambiguous. Hence, the brain must rely on an internal model of the sensory world
@@ -337,6 +339,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000248/versions/draft/assets/
 name: Allen Institute Openscope - Illusion project
 protocol: []
+publishedBy:
+  endDate: '2024-05-02T23:44:23.423845+00:00'
+  id: urn:uuid:e195a950-1b0a-48c8-820e-5573c3af5769
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-02T23:44:23.423845+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0fcddeb3-e485-4aa0-b220-26481972d3cf
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1101/2023.06.05.543698
   name: Recurrent pattern completion drives the neocortical representation of sensory
