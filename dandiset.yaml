@@ -41,11 +41,13 @@ assetsSummary:
   - OptogeneticSeries
   - Units
   - ProcessingModule
-citation: Adesnik, Hillel; Shin, Hyeyoung; Peene, R. Carter; Ngo, Nhan-Kiet; Durand,
-  Severine; Carlson, Mikayla; GIllis, Ryan; Cabasco, Hannah; Williford, Ali; Swapp,
-  Jackie; Grasso, Connor;  Johnson, Tye; Suarez, Lucas; Lecoq, Jerome; Belski , Hannah;
-  Groblewski, A. Peter; Kiselycznyk, Carly ; Bawany, Ahad (2024) Allen Institute Openscope
-  - Illusion project (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
+citation: Shin, Hyeyoung; Durand, Severine; Belski , Hannah; Cabasco, Hannah; Bawany,
+  Ahad; Hardcastle, Ben; Peene, R. Carter; Suarez, Lucas; GIllis, Ryan; Ngo, Nhan-Kiet;
+  Loefler, Henry; Swapp, Jackie; Ouellette, Ben; Grasso, Connor; Han, Warren; Suarez,
+  Lucas; Ha, Vivian; Young, Ahrial; Caldejon, Shiella;  Johnson, Tye; Williford, Ali;
+  Groblewski, A. Peter; Kiselycznyk, Carly ; Nguyen, Katrina; Lecoq, Jerome; Adesnik,
+  Hillel (2024) Allen Institute Openscope - Illusion project (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -63,29 +65,19 @@ contributor:
   - dcite:Producer
   schemaKey: Organization
   url: https://alleninstitute.org/
-- affiliation: []
-  email: hadesnik@berkeley.edu
-  identifier: 0000-0002-3796-8643
-  includeInCitation: true
-  name: Adesnik, Hillel
+- awardNumber: SSTF-BA2302-07
+  contactPoint: []
+  includeInCitation: false
+  name: Samsung Science and Technology Foundation
   roleName:
-  - dcite:Author
-  - dcite:FormalAnalysis
-  - dcite:ContactPerson
-  schemaKey: Person
-  url: https://adesnik.berkeley.edu/
-- affiliation: []
-  email: shinehyeyoung@gmail.com
-  identifier: 0000-0002-7587-8577
-  includeInCitation: true
-  name: Shin, Hyeyoung
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Seoul National University New Faculty Startup Fund
   roleName:
-  - dcite:Author
-  - dcite:ContactPerson
-  - dcite:FormalAnalysis
-  - dcite:DataCurator
-  schemaKey: Person
-  url: https://biosci.snu.ac.kr/neuroshin
+  - dcite:Funder
+  schemaKey: Organization
 - awardNumber: R01EY023756
   contactPoint: []
   includeInCitation: false
@@ -100,19 +92,57 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: SSTF-BA2302-07
-  contactPoint: []
-  includeInCitation: false
-  name: Samsung Science and Technology Foundation
+- affiliation: []
+  email: shinehyeyoung@gmail.com
+  identifier: 0000-0002-7587-8577
+  includeInCitation: true
+  name: Shin, Hyeyoung
   roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- contactPoint: []
-  includeInCitation: false
-  name: Seoul National University New Faculty Startup Fund
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:FormalAnalysis
+  - dcite:DataCurator
+  schemaKey: Person
+  url: https://biosci.snu.ac.kr/neuroshin
+- email: severined@alleninstitute.org
+  identifier: 0000-0001-7788-0200
+  includeInCitation: true
+  name: Durand, Severine
   roleName:
-  - dcite:Funder
-  schemaKey: Organization
+  - dcite:Supervision
+  - dcite:DataCurator
+  schemaKey: Person
+- email: hannah.belski@alleninstitute.org
+  identifier: 0009-0001-5422-5964
+  includeInCitation: true
+  name: Belski , Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: hannah.cabasco@alleninstitute.org
+  identifier: 0009-0001-7899-2463
+  includeInCitation: true
+  name: Cabasco, Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: ahad.bawany@alleninstitute.org
+  identifier: 0009-0002-5495-5411
+  includeInCitation: true
+  name: Bawany, Ahad
+  roleName:
+  - dcite:Software
+  - dcite:DataCurator
+  - dcite:Validation
+  schemaKey: Person
+- identifier: 0000-0002-4819-5631
+  includeInCitation: true
+  name: Hardcastle, Ben
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Validation
+  schemaKey: Person
 - email: carter.peene@alleninstitute.org
   identifier: 0009-0000-6660-2264
   includeInCitation: true
@@ -122,24 +152,10 @@ contributor:
   - dcite:DataCurator
   - dcite:Validation
   schemaKey: Person
-- email: kietn@alleninstitute.org
-  identifier: 0009-0002-5548-1983
+- email: lucas.suarez@alleninstitute.org
+  identifier: 0009-0002-0121-3334
   includeInCitation: true
-  name: Ngo, Nhan-Kiet
-  roleName: []
-  schemaKey: Person
-- email: severined@alleninstitute.org
-  identifier: 0000-0001-7788-0200
-  includeInCitation: true
-  name: Durand, Severine
-  roleName:
-  - dcite:Supervision
-  - dcite:DataCurator
-  schemaKey: Person
-- email: mikayla.carlson@alleninstitue.org
-  identifier: 0009-0003-7019-2781
-  includeInCitation: true
-  name: Carlson, Mikayla
+  name: Suarez, Lucas
   roleName:
   - dcite:DataCollector
   schemaKey: Person
@@ -150,10 +166,75 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
-- email: hannah.cabasco@alleninstitute.org
-  identifier: 0009-0001-7899-2463
+- email: kietn@alleninstitute.org
+  identifier: 0009-0002-5548-1983
   includeInCitation: true
-  name: Cabasco, Hannah
+  name: Ngo, Nhan-Kiet
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- identifier: 0009-0007-3935-6863
+  includeInCitation: true
+  name: Loefler, Henry
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- email: jackies@alleninstitute.org
+  identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:Supervision
+  - dcite:ProjectAdministration
+  - dcite:DataCollector
+  - dcite:Methodology
+  schemaKey: Person
+- identifier: 0000-0003-4913-554X
+  includeInCitation: true
+  name: Ouellette, Ben
+  schemaKey: Person
+- email: conor.grasso@alleninstitute.org
+  identifier: 0009-0003-6384-4075
+  includeInCitation: true
+  name: Grasso, Connor
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0006-0104-0380
+  includeInCitation: true
+  name: Han, Warren
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- includeInCitation: true
+  name: Suarez, Lucas
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- includeInCitation: true
+  name: Ha, Vivian
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- includeInCitation: true
+  name: Young, Ahrial
+  schemaKey: Person
+- includeInCitation: true
+  name: Caldejon, Shiella
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Supervision
+  schemaKey: Person
+- email: tye.johnson@alleninstitute.org
+  identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: ' Johnson, Tye'
   roleName:
   - dcite:DataCollector
   schemaKey: Person
@@ -166,36 +247,33 @@ contributor:
   - dcite:ProjectAdministration
   - dcite:Methodology
   schemaKey: Person
-- email: jackies@alleninstitute.org
-  identifier: 0009-0008-4965-6242
+- email: peterg@alleninstitute.org
+  identifier: 0000-0002-8415-1118
   includeInCitation: true
-  name: Swapp, Jackie
+  name: Groblewski, A. Peter
+  roleName:
+  - dcite:ProjectAdministration
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0002-9568-7057
+  includeInCitation: false
+  name: Olsen, Shawn
   roleName:
   - dcite:Supervision
+  schemaKey: Person
+- email: carly.kiselycznyk@alleninstitute.org
+  identifier: 0009-0006-8410-1192
+  includeInCitation: true
+  name: 'Kiselycznyk, Carly '
+  roleName:
   - dcite:ProjectAdministration
-  - dcite:DataCollector
-  - dcite:Methodology
+  - dcite:Supervision
   schemaKey: Person
-- email: conor.grasso@alleninstitute.org
-  identifier: 0009-0003-6384-4075
-  includeInCitation: true
-  name: Grasso, Connor
+- includeInCitation: true
+  name: Nguyen, Katrina
   roleName:
   - dcite:DataCollector
-  schemaKey: Person
-- email: tye.johnson@alleninstitute.org
-  identifier: 0009-0006-7239-7571
-  includeInCitation: true
-  name: ' Johnson, Tye'
-  roleName:
-  - dcite:DataCollector
-  schemaKey: Person
-- email: lucas.suarez@alleninstitute.org
-  identifier: 0009-0002-0121-3334
-  includeInCitation: true
-  name: Suarez, Lucas
-  roleName:
-  - dcite:DataCollector
+  - dcite:DataCurator
   schemaKey: Person
 - email: jeromel@alleninstitute.org
   identifier: 0000-0002-0131-0938
@@ -209,38 +287,17 @@ contributor:
   - dcite:ProjectLeader
   - dcite:Software
   schemaKey: Person
-- email: hannah.belski@alleninstitute.org
-  identifier: 0009-0001-5422-5964
+- affiliation: []
+  email: hadesnik@berkeley.edu
+  identifier: 0000-0002-3796-8643
   includeInCitation: true
-  name: Belski , Hannah
+  name: Adesnik, Hillel
   roleName:
-  - dcite:DataCollector
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:ContactPerson
   schemaKey: Person
-- email: peterg@alleninstitute.org
-  identifier: 0000-0002-8415-1118
-  includeInCitation: true
-  name: Groblewski, A. Peter
-  roleName:
-  - dcite:ProjectAdministration
-  - dcite:Supervision
-  schemaKey: Person
-- email: carly.kiselycznyk@alleninstitute.org
-  identifier: 0009-0006-8410-1192
-  includeInCitation: true
-  name: 'Kiselycznyk, Carly '
-  roleName:
-  - dcite:ProjectAdministration
-  - dcite:Supervision
-  schemaKey: Person
-- email: ahad.bawany@alleninstitute.org
-  identifier: 0009-0002-5495-5411
-  includeInCitation: true
-  name: Bawany, Ahad
-  roleName:
-  - dcite:Software
-  - dcite:DataCurator
-  - dcite:Validation
-  schemaKey: Person
+  url: https://adesnik.berkeley.edu/
 dateCreated: '2022-05-17T21:44:37.654103+00:00'
 description: 'Much of sensory neuroscience has focused on how the brain faithfully
   represents sensory information. However, sensory information is often incomplete
