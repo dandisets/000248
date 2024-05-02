@@ -47,7 +47,7 @@ citation: Shin, Hyeyoung; Durand, Severine; Belski , Hannah; Cabasco, Hannah; Ba
   Lucas; Ha, Vivian; Young, Ahrial; Caldejon, Shiella;  Johnson, Tye; Nguyen, Katrina;
   Williford, Ali; Groblewski, A. Peter; Olsen, Shawn; Kiselycznyk, Carly ; Lecoq,
   Jerome; Adesnik, Hillel (2024) Allen Institute Openscope - Illusion project (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000248/draft
+  0.240502.2344) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000248/0.240502.2344
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   contactPoint: []
@@ -316,13 +316,14 @@ description: 'Much of sensory neuroscience has focused on how the brain faithful
   implementation of IC encoding is common across the visual cortex hierarchy.
 
   '
+doi: 10.48324/dandi.000248/0.240502.2344
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:000248/draft
+id: DANDI:000248/0.240502.2344
 identifier: DANDI:000248
 keywords:
 - perceptual inference
@@ -336,7 +337,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000248/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000248/0.240502.2344/assets.yaml
 name: Allen Institute Openscope - Illusion project
 protocol: []
 publishedBy:
@@ -368,6 +369,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000248/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000248/0.240502.2344
+version: 0.240502.2344
 wasGeneratedBy: []
